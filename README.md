@@ -4,6 +4,7 @@
 -This project is a mocked full-stack style insurance dashboard built using React for the frontend.
 
 -It includes features like Login–Signup flow, Private Routes, CRUD operations, Search & Sort, and Toast notifications.
+
 --------------------------------------
 🔑 Authentication Flow:
 
@@ -18,6 +19,7 @@
 -The Navbar has a Logout button – when clicked, it clears the session and redirects the user
 
 -back to the Login Page.
+
 ------------------------------------------------
 📊 Dashboard Functionality
 
@@ -30,6 +32,7 @@
 -Sort by price (temporary sort, original array untouched)
 
 -Toast notifications for add/update/delete
+
 ----------------------------------
 🛠️ Tech Stack:
 
@@ -44,6 +47,7 @@
 -React Toastify – Notifications
 
 -LocalStorage – Mocked data persistence
+
 -----------------------------------------------
  🚀 Setup Instructions
 
@@ -59,6 +63,7 @@
 
 4.Open in Browser:
   http://localhost:5173/
+  
 -------------------------------------
 
 ## folder Structure 
