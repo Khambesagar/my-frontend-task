@@ -8,7 +8,6 @@ export default function LoginPage() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
@@ -121,7 +120,7 @@ export default function LoginPage() {
           <div className="mt-6 text-center text-gray-700">
             New user?{" "}
             <Link to="/signup">
-              <a href="#" className="text-blue-700 underline">
+              <a href="#" className="text-blue-700 underline hover:text-red-500">
                 Register here
               </a>
             </Link>
